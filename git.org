@@ -45,6 +45,9 @@
   git checkout
 #+END_SRC
 ** cherry-pick 
+** git commit --amend
+** git rebase -i
+** git checkout -- path/to/file
 ** stash
 ** reflog
 * Helpful Links
