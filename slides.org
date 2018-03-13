@@ -1,4 +1,8 @@
+#+Title: Introduction to git
+#+Author: Ullas Holla
+#+Email: ullas.holla@sap.com
 #+OPTIONS: toc:nil
+#+OPTIONS: num:nil
 * What is git?
 * git objects
 ** blobs
@@ -11,3 +15,8 @@
 * Branches
 ** Local and remote
 ** Merging and diffing
+** Pulling/pushing/fetching
+* Tricks and tips
+* Links
+* Tools used
+  reveal.js, org-reveal
