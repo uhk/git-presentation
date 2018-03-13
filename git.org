@@ -43,30 +43,46 @@
 #+END_SRC
 #+REVEAL_HTML: <a href="https://xkcd.com/1296/"><img src="https://imgs.xkcd.com/comics/git_commit_2x.png" height="600"  /></a>
 * Tricks and tips
-**  Undo
+** Undo
 #+BEGIN_SRC bash
   git reset
   git revert
   git checkout
 #+END_SRC
-**  Help
+** Help
 #+BEGIN_SRC bash
   git help <command>
+  git help -g
   git help tutorial
   git help glossary
   git help everyday
   git help workflows
 #+END_SRC
+** Searching
+#+BEGIN_SRC bash
+  git log -S'<content>'
+  git log --grep
+#+END_SRC
 ** Others
 #+BEGIN_SRC bash
+  git add -p
+  git branch -a/-r
+  git checkout -
+  git checkout -- path/to/file
   git cherry-pick 
   git commit --amend
   git rebase -i
-  git checkout -- path/to/file
-  git stash
   git reflog
+  git stash
 #+END_SRC
 ** Change prompt
+** Watch out
+#+BEGIN_SRC sh
+   git push --force
+   git clean -ndx
+   git reset --hard
+   git stash pop/drop
+#+END_SRC
 * Helpful Links
  * http://jwiegley.github.io/git-from-the-bottom-up/
  * http://www.ndpsoftware.com/git-cheatsheet.html
