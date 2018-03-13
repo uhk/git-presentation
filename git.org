@@ -56,6 +56,7 @@
  * https://www.sbf5.com/~cduan/technical/git/
  * http://gitimmersion.com/
  * http://ohshitgit.com/
+ * http://sethrobertson.github.io/GitFixUm/fixup.htm
 * Tools used and abused
   * reveal.js
   * org-mode and org-revel
