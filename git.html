@@ -1843,33 +1843,40 @@ body {
 <div class="reveal">
 <div class="slides">
 <section>
-<section id="slide-org7551852">
-<h2 id="org7551852">git?</h2>
+<section id="slide-org2ea2550">
+<h2 id="org2ea2550">git</h2>
+<p class="fragment">
+What is it?
+</p>
+
+</section>
+<section id="slide-org848a7da">
+<h3 id="org848a7da"></h3>
 <a href="https://xkcd.com/1597/"><img src="https://imgs.xkcd.com/comics/git_2x.png" height="600"  /></a>
 </section>
 </section>
 <section>
-<section id="slide-org932ee1f">
-<h2 id="org932ee1f">git objects</h2>
-<div class="outline-text-2" id="text-org932ee1f">
+<section id="slide-org9872da4">
+<h2 id="org9872da4">git objects</h2>
+<div class="outline-text-2" id="text-org9872da4">
 </div>
 </section>
-<section id="slide-org22ecdc1">
-<h3 id="org22ecdc1">blobs</h3>
+<section id="slide-org68b3e85">
+<h3 id="org68b3e85">blobs</h3>
 </section>
-<section id="slide-org51af19e">
-<h3 id="org51af19e">trees</h3>
+<section id="slide-orgcad99a2">
+<h3 id="orgcad99a2">trees</h3>
 </section>
-<section id="slide-orgbbf92ed">
-<h3 id="orgbbf92ed">commits</h3>
+<section id="slide-org0c2f5cb">
+<h3 id="org0c2f5cb">commits</h3>
 </section>
-<section id="slide-org0669e9b">
-<h3 id="org0669e9b">tags</h3>
+<section id="slide-orgc99457f">
+<h3 id="orgc99457f">tags</h3>
 </section>
 </section>
 <section>
-<section id="slide-orga4de788">
-<h2 id="orga4de788">init</h2>
+<section id="slide-org3daa7dd">
+<h2 id="org3daa7dd">init</h2>
 <div class="org-src-container">
 
 <pre  class="src src-bash">git init
@@ -1879,35 +1886,47 @@ git clone
 </section>
 </section>
 <section>
-<section id="slide-org0e64c19">
-<h2 id="org0e64c19">Index/staging area</h2>
+<section id="slide-orgca99d11">
+<h2 id="orgca99d11">Index/staging area</h2>
 <div class="org-src-container">
 
 <pre  class="src src-bash">git status
 git diff
+git add
+git mv
+git rm
 </pre>
 </div>
 </section>
+<section id="slide-orgd694c83">
+<h3 id="orgd694c83">.gitignore file</h3>
+</section>
 </section>
 <section>
-<section id="slide-org95a1ea7">
-<h2 id="org95a1ea7">Branches</h2>
-<div class="outline-text-2" id="text-org95a1ea7">
+<section id="slide-orgebe94e1">
+<h2 id="orgebe94e1">Branches</h2>
+<div class="outline-text-2" id="text-orgebe94e1">
 </div>
 </section>
-<section id="slide-org7d68751">
-<h3 id="org7d68751">Local and remote</h3>
+<section id="slide-org57a01d6">
+<h3 id="org57a01d6">Local and remote</h3>
 </section>
-<section id="slide-org94c5f29">
-<h3 id="org94c5f29">Merging and diffing</h3>
+<section id="slide-orgea9cdbd">
+<h3 id="orgea9cdbd">Merging and diffing</h3>
 </section>
-<section id="slide-org63af6fa">
-<h3 id="org63af6fa">Pulling/pushing/fetching</h3>
+<section id="slide-orge8b4734">
+<h3 id="orge8b4734">Pulling/pushing/fetching</h3>
+</section>
+<section id="slide-org3d943be">
+<h3 id="org3d943be">Relative commit names</h3>
+</section>
+<section id="slide-orge401a14">
+<h3 id="orge401a14">Pull requests</h3>
 </section>
 </section>
 <section>
-<section id="slide-org88f9098">
-<h2 id="org88f9098">History</h2>
+<section id="slide-org9ab1758">
+<h2 id="org9ab1758">History</h2>
 <div class="org-src-container">
 
 <pre  class="src src-bash">git log
@@ -1917,13 +1936,13 @@ git diff
 </section>
 </section>
 <section>
-<section id="slide-org89ceff1">
-<h2 id="org89ceff1">Tricks and tips</h2>
-<div class="outline-text-2" id="text-org89ceff1">
+<section id="slide-orgda08f2a">
+<h2 id="orgda08f2a">Tricks and tips</h2>
+<div class="outline-text-2" id="text-orgda08f2a">
 </div>
 </section>
-<section id="slide-org6c352d8">
-<h3 id="org6c352d8">Undo</h3>
+<section id="slide-orga211469">
+<h3 id="orga211469">Undo</h3>
 <div class="org-src-container">
 
 <pre  class="src src-bash">git reset
@@ -1932,19 +1951,38 @@ git checkout
 </pre>
 </div>
 </section>
-<section id="slide-orgf1a064a">
-<h3 id="orgf1a064a">cherry-pick</h3>
+<section id="slide-org366af89">
+<h3 id="org366af89">Help</h3>
+<div class="org-src-container">
+
+<pre  class="src src-bash">git help &lt;command&gt;
+git help tutorial
+git help glossary
+git help everyday
+git help workflows
+</pre>
+</div>
 </section>
-<section id="slide-orga471099">
-<h3 id="orga471099">stash</h3>
+<section id="slide-orgc0cd2a7">
+<h3 id="orgc0cd2a7">Others</h3>
+<div class="org-src-container">
+
+<pre  class="src src-bash">git cherry-pick 
+git commit --amend
+git rebase -i
+git checkout -- path/to/file
+git stash
+git reflog
+</pre>
+</div>
 </section>
-<section id="slide-orgd838e32">
-<h3 id="orgd838e32">reflog</h3>
+<section id="slide-orga59118e">
+<h3 id="orga59118e">Change prompt</h3>
 </section>
 </section>
 <section>
-<section id="slide-org612fe9f">
-<h2 id="org612fe9f">Helpful Links</h2>
+<section id="slide-org4a1cfe5">
+<h2 id="org4a1cfe5">Helpful Links</h2>
 <ul>
 <li><a href="http://jwiegley.github.io/git-from-the-bottom-up/">http://jwiegley.github.io/git-from-the-bottom-up/</a></li>
 <li><a href="http://www.ndpsoftware.com/git-cheatsheet.html">http://www.ndpsoftware.com/git-cheatsheet.html</a></li>
@@ -1954,13 +1992,15 @@ git checkout
 <li><a href="https://www.sbf5.com/~cduan/technical/git/">https://www.sbf5.com/~cduan/technical/git/</a></li>
 <li><a href="http://gitimmersion.com/">http://gitimmersion.com/</a></li>
 <li><a href="http://ohshitgit.com/">http://ohshitgit.com/</a></li>
+<li><a href="http://sethrobertson.github.io/GitFixUm/fixup.htm">http://sethrobertson.github.io/GitFixUm/fixup.htm</a></li>
+<li><a href="https://github.com/git-tips/tips">https://github.com/git-tips/tips</a></li>
 
 </ul>
 </section>
 </section>
 <section>
-<section id="slide-orgfa9ea03">
-<h2 id="orgfa9ea03">Tools used and abused</h2>
+<section id="slide-orgaf0fe7d">
+<h2 id="orgaf0fe7d">Tools used and abused</h2>
 <ul>
 <li>reveal.js</li>
 <li>org-mode and org-revel</li>

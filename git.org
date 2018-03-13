@@ -6,7 +6,11 @@
 #+OPTIONS: toc:nil
 #+OPTIONS: reveal_single_file:t
 #+OPTIONS: num:nil
-* git?
+* git
+#+ATTR_REVEAL: :frag t
+  What is it?
+
+** 
 #+REVEAL_HTML: <a href="https://xkcd.com/1597/"><img src="https://imgs.xkcd.com/comics/git_2x.png" height="600"  /></a>
 * git objects
 ** blobs
