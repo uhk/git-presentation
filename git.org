@@ -76,6 +76,7 @@
   git reflog
   git stash
   git blame
+  git config --global rerere.enabled true
   git update-index --assume-unchanged
   git log --follow <file>
 #+END_SRC
