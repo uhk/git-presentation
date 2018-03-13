@@ -61,6 +61,7 @@
   git stash
   git reflog
 #+END_SRC
+** Change prompt
 * Helpful Links
  * http://jwiegley.github.io/git-from-the-bottom-up/
  * http://www.ndpsoftware.com/git-cheatsheet.html
@@ -71,6 +72,7 @@
  * http://gitimmersion.com/
  * http://ohshitgit.com/
  * http://sethrobertson.github.io/GitFixUm/fixup.htm
+ * https://github.com/git-tips/tips
 * Tools used and abused
   * reveal.js
   * org-mode and org-revel
