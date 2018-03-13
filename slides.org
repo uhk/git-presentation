@@ -1,23 +1,41 @@
 #+Title: Introduction to git
 #+Author: Ullas Holla
 #+Email: ullas.holla@sap.com
+#+OPTIONS: reveal_title_slide:nil
 #+OPTIONS: toc:nil
 #+OPTIONS: reveal_single_file:t
 #+OPTIONS: num:nil
-* What is git?
+* git?
+#+REVEAL_HTML: <img src="https://imgs.xkcd.com/comics/git_2x.png" height="600"  />
 * git objects
 ** blobs
 ** trees
 ** commits
 ** tags
-* git init
-* git add
+* init
+#+BEGIN_SRC bash
+  git init
+  git clone
+#+END_SRC
+* Index/staging area
 * git commit
 * Branches
 ** Local and remote
 ** Merging and diffing
 ** Pulling/pushing/fetching
+* History
+#+BEGIN_SRC bash
+git log
+#+END_SRC
+#+REVEAL_HTML: <img src="https://imgs.xkcd.com/comics/git_commit_2x.png" height="600"  />
 * Tricks and tips
+  Undo
+#+BEGIN_SRC bash
+git reset
+git revert
+git checkout
+#+END_SRC
 * Links
-* Tools used
-  reveal.js, org-reveal
+* Tools used and abused
+  * reveal.js
+  * org-reve
