@@ -32,6 +32,7 @@
 ** Merging and diffing
 ** Pulling/pushing/fetching
 ** Relative commit names
+** Pull requests
 * History
 #+BEGIN_SRC bash
   git log
@@ -44,12 +45,22 @@
   git revert
   git checkout
 #+END_SRC
-** cherry-pick 
-** git commit --amend
-** git rebase -i
-** git checkout -- path/to/file
-** stash
-** reflog
+**  Help
+#+BEGIN_SRC bash
+  git help <command>
+  git help tutorial
+  git help glossary
+  git help everyday
+#+END_SRC
+** Others
+#+BEGIN_SRC bash
+  git cherry-pick 
+  git commit --amend
+  git rebase -i
+  git checkout -- path/to/file
+  git stash
+  git reflog
+#+END_SRC
 * Helpful Links
  * http://jwiegley.github.io/git-from-the-bottom-up/
  * http://www.ndpsoftware.com/git-cheatsheet.html
