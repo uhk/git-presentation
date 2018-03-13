@@ -19,10 +19,19 @@
   git clone
 #+END_SRC
 * Index/staging area
+#+BEGIN_SRC bash
+  git status
+  git diff
+  git add
+  git mv
+  git rm
+#+END_SRC
+** .gitignore file
 * Branches
 ** Local and remote
 ** Merging and diffing
 ** Pulling/pushing/fetching
+** Relative commit names
 * History
 #+BEGIN_SRC bash
   git log
