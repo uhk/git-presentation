@@ -74,6 +74,7 @@
   git rebase -i
   git reflog
   git stash
+  git blame
 #+END_SRC
 ** Change prompt
 ** Watch out
