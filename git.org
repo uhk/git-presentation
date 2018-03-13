@@ -1,12 +1,13 @@
 #+Title: Introduction to git
 #+Author: Ullas Holla
 #+Email: ullas.holla@sap.com
+
 #+OPTIONS: reveal_title_slide:nil
 #+OPTIONS: toc:nil
 #+OPTIONS: reveal_single_file:t
 #+OPTIONS: num:nil
 * git?
-#+REVEAL_HTML: <img src="https://imgs.xkcd.com/comics/git_2x.png" height="600"  />
+#+REVEAL_HTML: <a href="https://xkcd.com/1597/"><img src="https://imgs.xkcd.com/comics/git_2x.png" height="600"  /></a>
 * git objects
 ** blobs
 ** trees
@@ -18,24 +19,35 @@
   git clone
 #+END_SRC
 * Index/staging area
-* git commit
 * Branches
 ** Local and remote
 ** Merging and diffing
 ** Pulling/pushing/fetching
 * History
 #+BEGIN_SRC bash
-git log
+  git log
 #+END_SRC
-#+REVEAL_HTML: <img src="https://imgs.xkcd.com/comics/git_commit_2x.png" height="600"  />
+#+REVEAL_HTML: <a href="https://xkcd.com/1296/"><img src="https://imgs.xkcd.com/comics/git_commit_2x.png" height="600"  /></a>
 * Tricks and tips
-  Undo
+**  Undo
 #+BEGIN_SRC bash
-git reset
-git revert
-git checkout
+  git reset
+  git revert
+  git checkout
 #+END_SRC
-* Links
+** cherry-pick 
+** stash
+** reflog
+* Helpful Links
+ * http://jwiegley.github.io/git-from-the-bottom-up/
+ * http://www.ndpsoftware.com/git-cheatsheet.html
+ * http://www-cs-students.stanford.edu/~blynn/gitmagic/
+ * https://book.git-scm.com/book/en/v2
+ * http://stackoverflow.com/questions/315911/git-for-beginners-the-definitive-practical-guide
+ * https://www.sbf5.com/~cduan/technical/git/
+ * http://gitimmersion.com/
+ * http://ohshitgit.com/
 * Tools used and abused
   * reveal.js
-  * org-reve
+  * org-mode and org-revel
+  * git
