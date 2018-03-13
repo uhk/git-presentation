@@ -51,6 +51,7 @@
   git help tutorial
   git help glossary
   git help everyday
+  git help workflows
 #+END_SRC
 ** Others
 #+BEGIN_SRC bash
