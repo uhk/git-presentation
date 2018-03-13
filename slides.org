@@ -2,6 +2,7 @@
 #+Author: Ullas Holla
 #+Email: ullas.holla@sap.com
 #+OPTIONS: toc:nil
+#+OPTIONS: reveal_single_file:t
 #+OPTIONS: num:nil
 * What is git?
 * git objects
